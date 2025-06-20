@@ -1,0 +1,15 @@
+F:\Game MODDING\Persona\Reloaded 2 for P4G\Mods\p5rpc.LevelCap\Preview.png
+F:\Game MODDING\Persona\Reloaded 2 for P4G\Mods\p5rpc.LevelCap\ModConfig.json
+F:\Game MODDING\Persona\Reloaded 2 for P4G\Mods\p5rpc.LevelCap\p5rpc.LevelCap.deps.json
+F:\Game MODDING\Persona\Reloaded 2 for P4G\Mods\p5rpc.LevelCap\p5rpc.LevelCap.dll
+F:\Game MODDING\Persona\Reloaded 2 for P4G\Mods\p5rpc.LevelCap\p5rpc.LevelCap.pdb
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.csproj.AssemblyReference.cache
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.AssemblyInfoInputs.cache
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.AssemblyInfo.cs
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.csproj.CoreCompileInputs.cache
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.csproj.CopyComplete
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.dll
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\refint\p5rpc.LevelCap.dll
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\p5rpc.LevelCap.pdb
+E:\My Things\IDM\P5R Mod\Level Cap\p5rpc.LevelCap\p5rpc.LevelCap\obj\Debug\ref\p5rpc.LevelCap.dll

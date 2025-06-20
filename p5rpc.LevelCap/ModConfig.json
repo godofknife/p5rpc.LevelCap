@@ -1,0 +1,25 @@
+{
+  "ModId": "p5rpc.LevelCap",
+  "ModName": "Level Cap",
+  "ModAuthor": "SCArkadia",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Description",
+  "ModDll": "p5rpc.LevelCap.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/p5rpc.LevelCap.dll",
+  "ModR2RManagedDll64": "x64/p5rpc.LevelCap.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "p5rpc.LevelCap.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "p5rpc.lib"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": ["p5r.exe"],
+  "ProjectUrl": ""
+}

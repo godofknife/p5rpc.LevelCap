@@ -1,0 +1,295 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "p5rpc.lib.interfaces/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/p5rpc.lib.interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/p5rpc.lib.interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Reloaded.Hooks.Definitions/1.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Reloaded.Hooks.Definitions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Reloaded.Hooks.Definitions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Reloaded.Memory.Sigscan.Definitions/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Reloaded.Memory.Sigscan.Definitions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Reloaded.Memory.Sigscan.Definitions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Reloaded.Memory.SigScan.ReloadedII.Interfaces/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Reloaded.Memory.Sigscan.Definitions": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Reloaded.Memory.SigScan.ReloadedII.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reloaded.Memory.SigScan.ReloadedII.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Reloaded.Mod.Interfaces/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Reloaded.Mod.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Reloaded.SharedLib.Hooks/1.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Reloaded.Hooks.Definitions": "1.11.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Reloaded.Hooks.ReloadedII.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reloaded.Hooks.ReloadedII.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "p5rpc.lib.interfaces/1.0.1": {
+      "sha512": "cc5qsmO4/7v34GorY6jjziimuO0+hbWxDvQtkSwBr+Q/G+p2TBFxPT8nxZVoxW1Y4AQXNUqI0VdQk6wuwyX51g==",
+      "type": "package",
+      "path": "p5rpc.lib.interfaces/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Preview.png",
+        "README.md",
+        "lib/net7.0/p5rpc.lib.interfaces.dll",
+        "lib/net7.0/p5rpc.lib.interfaces.xml",
+        "p5rpc.lib.interfaces.1.0.1.nupkg.sha512",
+        "p5rpc.lib.interfaces.nuspec"
+      ]
+    },
+    "Reloaded.Hooks.Definitions/1.11.0": {
+      "sha512": "/z0AwcCvVTQHlQ9SMMMBqKEIrm5t/yBFPylySW2Rnr7uRGV9jGfoACFe79KZKF976dhtkyy2xl0HIXz5hRUkng==",
+      "type": "package",
+      "path": "reloaded.hooks.definitions/1.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net5.0/Reloaded.Hooks.Definitions.dll",
+        "lib/net5.0/Reloaded.Hooks.Definitions.xml",
+        "lib/net6.0/Reloaded.Hooks.Definitions.dll",
+        "lib/net6.0/Reloaded.Hooks.Definitions.xml",
+        "lib/netcoreapp3.0/Reloaded.Hooks.Definitions.dll",
+        "lib/netcoreapp3.0/Reloaded.Hooks.Definitions.xml",
+        "lib/netstandard2.0/Reloaded.Hooks.Definitions.dll",
+        "lib/netstandard2.0/Reloaded.Hooks.Definitions.xml",
+        "reloaded.hooks.definitions.1.11.0.nupkg.sha512",
+        "reloaded.hooks.definitions.nuspec"
+      ]
+    },
+    "Reloaded.Memory.Sigscan.Definitions/1.1.0": {
+      "sha512": "jJYe9pZAzdK0MSaSOmMFPWZ5258YYcn89MnQVnb1AY8QrIf9KmhBOYwNPuc7f0hPV9lIr1i4w3La/ngnaA5Ylg==",
+      "type": "package",
+      "path": "reloaded.memory.sigscan.definitions/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/netcoreapp3.1/Reloaded.Memory.Sigscan.Definitions.dll",
+        "lib/netcoreapp3.1/Reloaded.Memory.Sigscan.Definitions.xml",
+        "lib/netstandard2.0/Reloaded.Memory.Sigscan.Definitions.dll",
+        "lib/netstandard2.0/Reloaded.Memory.Sigscan.Definitions.xml",
+        "reloaded.memory.sigscan.definitions.1.1.0.nupkg.sha512",
+        "reloaded.memory.sigscan.definitions.nuspec"
+      ]
+    },
+    "Reloaded.Memory.SigScan.ReloadedII.Interfaces/1.2.0": {
+      "sha512": "iRorTjJJA2d+u6hqv4C9fKbdC8KQN3bQ0bRpWv/4MoK6bTcDzetJhBgbsB5opgNJXb97KxFupxZlS84ykMxqTg==",
+      "type": "package",
+      "path": "reloaded.memory.sigscan.reloadedii.interfaces/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Reloaded.Memory.SigScan.ReloadedII.Interfaces.dll",
+        "lib/netstandard2.0/Reloaded.Memory.SigScan.ReloadedII.Interfaces.xml",
+        "reloaded.memory.sigscan.reloadedii.interfaces.1.2.0.nupkg.sha512",
+        "reloaded.memory.sigscan.reloadedii.interfaces.nuspec"
+      ]
+    },
+    "Reloaded.Mod.Interfaces/2.3.0": {
+      "sha512": "u0n87wuTPqcM4dSYm5BKC7q6rgzVH07Jg2r+CzYONZo6Ys367tza1Hd/LKNfQMum5vcSdqBifTJyKGAPlSNMpQ==",
+      "type": "package",
+      "path": "reloaded.mod.interfaces/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/netcoreapp3.1/Reloaded.Mod.Interfaces.dll",
+        "lib/netcoreapp3.1/Reloaded.Mod.Interfaces.xml",
+        "reloaded.mod.interfaces.2.3.0.nupkg.sha512",
+        "reloaded.mod.interfaces.nuspec"
+      ]
+    },
+    "Reloaded.SharedLib.Hooks/1.9.0": {
+      "sha512": "AEDTDhCnYxJGuLrdZCZPoiqrdl/lW4XwA6bb5dntOvkyw4RBBm/gqoNlHS7RJS7k+kt36ES+UFZAtBeyusYtgw==",
+      "type": "package",
+      "path": "reloaded.sharedlib.hooks/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/Reloaded.Hooks.ReloadedII.Interfaces.dll",
+        "lib/netstandard2.0/Reloaded.Hooks.ReloadedII.Interfaces.xml",
+        "reloaded.sharedlib.hooks.1.9.0.nupkg.sha512",
+        "reloaded.sharedlib.hooks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Reloaded.Memory.SigScan.ReloadedII.Interfaces >= 1.2.0",
+      "Reloaded.Mod.Interfaces >= 2.3.0",
+      "Reloaded.SharedLib.Hooks >= 1.9.0",
+      "p5rpc.lib.interfaces >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Wisely\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\My Things\\IDM\\P5R Mod\\Level Cap\\p5rpc.LevelCap\\p5rpc.LevelCap\\p5rpc.LevelCap.csproj",
+      "projectName": "p5rpc.LevelCap",
+      "projectPath": "E:\\My Things\\IDM\\P5R Mod\\Level Cap\\p5rpc.LevelCap\\p5rpc.LevelCap\\p5rpc.LevelCap.csproj",
+      "packagesPath": "C:\\Users\\Wisely\\.nuget\\packages\\",
+      "outputPath": "E:\\My Things\\IDM\\P5R Mod\\Level Cap\\p5rpc.LevelCap\\p5rpc.LevelCap\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Wisely\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "Reloaded.Memory.SigScan.ReloadedII.Interfaces": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Reloaded.Mod.Interfaces": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Reloaded.SharedLib.Hooks": {
+            "target": "Package",
+            "version": "[1.9.0, )"
+          },
+          "p5rpc.lib.interfaces": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
